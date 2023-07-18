@@ -3,10 +3,7 @@ import random
 # print(random.choice(my_list))
 
 def roll():
-    min_value = 1 
-    max_value = 6
-    roll = random.randint(min_value, max_value)
-
+    roll = random.randint(1, 6)
     return roll
     
 # value = roll()
@@ -54,4 +51,4 @@ while max(player_scores) < max_score:
 
 max_score = max(player_scores)
 winning_idx = player_scores.index(max_score)
-print('The winner is PLAYER: ',winning_idx )
+print('The winner is PLAYER: ',winning_idx+1 )
