@@ -1,3 +1,5 @@
+# pig game 
+
 import random
 # my_list = [1, 2, 3, 4, 5]
 # print(random.choice(my_list))
@@ -5,9 +7,6 @@ import random
 def roll():
     roll = random.randint(1, 6)
     return roll
-    
-# value = roll()
-# print(value)
 
 while True:
     players = input("Enter the number of players (1-4): ")
